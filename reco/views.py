@@ -23,7 +23,7 @@ def index(request):
 
 def riot(request):
 
-    return render(request, '../riot.txt')
+    return render(request, 'riot.txt')
 
 #--------------------------------------------------------------------------------------#
 
