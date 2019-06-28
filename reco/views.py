@@ -8,8 +8,6 @@ import requests
 import json
 import operator
 import requests
-from PIL import Image
-from io import BytesIO
 import json
 
 api_key = "RGAPI-5d4d9788-7f08-485b-86de-c8528dc9baac"
