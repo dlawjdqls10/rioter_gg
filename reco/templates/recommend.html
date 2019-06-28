@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+        {% block content %}
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-3"> {{ Summoner_name }} 소환사 정보 </h1>
+                                <br>
+                <h3>
+                    Position : {{ My_line }}
+
+                </h3>
+            <p>
+                <br>
+                <a class="btn btn-primary btn-lg" href="#" role="button">전적 확인</a>
+            </p>
+            </div>
+        </div>
+            <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <h2>추천 플레이어</h2>
+                    {% for info in Duo1 %}
+                        {% if forloop.first %}
+                            <p>소환사 이름 :  {{ info }}</p>
+                        {% endif %}
+                        {% if forloop.counter == 2 %}
+                            <P>포지션 :  {{ info }} </P>
+                        {% endif %}
+                        {% if forloop.counter == 3 %}
+                            <P>주 챔피언 :  {{ info }} </P>
+                        {% endif %}
+                        {% if forloop.counter == 4 %}
+                        <img src="{{ info }}"/>
+                        {% endif %}
+                        {% if forloop.counter == 5 %}
+                        <P>승률 : {{ info }}</P>
+                        {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>추천 플레이어</h2>
+                <p>
+                    {% for info in Duo2 %}
+                        {% if forloop.first %}
+                            <p>소환사 이름 :  {{ info }}</p>
+                        {% endif %}
+                        {% if forloop.counter == 2 %}
+                            <P>포지션 :  {{ info }} </P>
+                        {% endif %}
+                        {% if forloop.counter == 3 %}
+                            <P>주 챔피언 :  {{ info }}</P>
+                        {% endif %}
+                        {% if forloop.counter == 4 %}
+                        <img src="{{ info }}"/>
+                        {% endif %}
+                        {% if forloop.counter == 5 %}
+                        <P>승률 : {{ info }}</P>
+                        {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>추천 플레이어</h2>
+                <p>
+                {% for info in Duo3 %}
+                    {% if forloop.first %}
+                        <p>소환사 이름 :  {{ info }}</p>
+                    {% endif %}
+                    {% if forloop.counter == 2 %}
+                        <P>포지션 :  {{ info }} </P>
+                    {% endif %}
+                    {% if forloop.counter == 3 %}
+                        <P>주 챔피언 :  {{ info }}</P>
+                    {% endif %}
+                    {% if forloop.counter == 4 %}
+                        <img src="{{ info }}"/>
+                    {% endif %}
+                    {% if forloop.counter == 5 %}
+                        <P>승률 : {{ info }}</P>
+                    {% endif %}
+                {% endfor %}
+                </p>
+            </div>
+            </div>
+            </div>
+        {% endblock %}

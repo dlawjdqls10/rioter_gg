@@ -1,0 +1,57 @@
+{% load static%}
+<!doctype html>
+<head>
+    <title> Rioter </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'css/jumbotron.css' %}">
+    <style type="text/css">
+     a:link { color: black; text-decoration: none;}
+     a:visited { color: black; text-decoration: none;}
+     a:hover { color: blue; text-decoration: underline;}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Rioter.GG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id ="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Drodown</a>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Challenger</a>
+                        <a class="dropdown-item" href="#">Grand-Master</a>
+                        <a class="dropdown-item" href="#">Master</a>
+                        <a class="dropdown-item" href="#">Etc</a>
+                    </div>
+                </li>
+            </ul>
+                <a class="btn btn-primary btn-lg" href="#" role="button">가입하기</a>
+        </div>
+    </nav>
+    <main role="main">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer class="container">
+        <p>@ Growth Hackers 2019. Project Rioter</p>
+    </footer>
+</body>
+</html>
