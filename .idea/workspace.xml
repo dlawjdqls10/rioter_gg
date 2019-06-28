@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reco/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
@@ -21,6 +21,15 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reco/templates/riot.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -82,15 +91,6 @@
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reco/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -176,6 +176,12 @@
             <path>
               <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
+              <item name="reco" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
               <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -201,6 +207,7 @@
       <recent name="C:\dev\growth_champions\Rioter_GG\reco\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\growth_champions\Rioter_GG\reco\templates" />
       <recent name="C:\dev\growth_champions\Rioter_GG\reco" />
     </key>
   </component>
@@ -251,25 +258,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561437953919</updated>
-      <workItem from="1561437955661" duration="31256000" />
+      <workItem from="1561437955661" duration="31346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31256000" />
+    <option name="totallyTimeSpent" value="31346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="763" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26907074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26907074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.7933426" visible="true" weight="0.36011478" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.7933426" visible="true" weight="0.36011478" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.20665742" side_tool="true" visible="true" weight="0.36011478" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -406,6 +413,13 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reco/templates/riot.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
