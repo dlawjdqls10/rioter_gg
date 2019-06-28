@@ -21,6 +21,10 @@ def index(request):
 
     return render(request, 'index.html')
 
+def riot(request):
+
+    return render(request, 'riot.txt')
+
 #--------------------------------------------------------------------------------------#
 
 
