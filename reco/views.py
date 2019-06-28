@@ -34,17 +34,19 @@ def riot(request):
 
 
 def recommend(request):
+    import os
+    cwd = os.getcwd()
 
-    with open('CHALLENGER_LANE.pickle', 'rb') as f:
+    with open(cwd + '/CHALLENGER_LANE.pickle', 'rb') as f:
         challenger_lane = pickle.load(f)
 
-    with open('CHALLENGER_time_vector.pickle', 'rb') as f:
+    with open(cwd + '/CHALLENGER_time_vector.pickle', 'rb') as f:
         challenger_time_vector = pickle.load(f)
 
-    with open('PointsDic_CG_1.pickle', 'rb') as f:
+    with open(cwd + '/PointsDic_CG_1.pickle', 'rb') as f:
         pointsdic_cg = pickle.load(f)
 
-    with open('win_rate_fake.pickle', 'rb') as f:
+    with open(cwd + '/win_rate_fake.pickle', 'rb') as f:
         winrate_dict = pickle.load(f)
 
     challenger_lane_dict = { }
