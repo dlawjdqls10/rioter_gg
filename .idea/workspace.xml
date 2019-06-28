@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b600f1fe-dccf-48b0-8d27-7f411a86b844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/win_rate_fake.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reco/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reco/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reco/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="95">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -51,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="95">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -146,8 +143,8 @@
         <option value="$PROJECT_DIR$/Rioter_GG/urls.py" />
         <option value="$PROJECT_DIR$/reco/views.py" />
         <option value="$PROJECT_DIR$/reco/templates/riot.txt" />
-        <option value="$PROJECT_DIR$/reco/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/reco/urls.py" />
       </list>
     </option>
   </component>
@@ -168,6 +165,16 @@
           <expand>
             <path>
               <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
+              <item name="reco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
               <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -245,25 +252,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561437953919</updated>
-      <workItem from="1561437955661" duration="35178000" />
+      <workItem from="1561437955661" duration="35760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35178000" />
+    <option name="totallyTimeSpent" value="35760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.79395974" visible="true" weight="0.35602838" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.79395974" visible="true" weight="0.35602838" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.20604026" side_tool="true" visible="true" weight="0.35602838" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -390,16 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reco/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/win_rate_fake.pickle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -419,8 +416,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="95">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reco/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
