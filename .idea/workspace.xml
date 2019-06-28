@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b600f1fe-dccf-48b0-8d27-7f411a86b844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CHALLENGER_LANE.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHALLENGER_time_vector.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PointsDic_CG_1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/win_rate_fake.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reco/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reco/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reco/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+            <state relative-caret-position="722">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reco/templates/riot.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -51,9 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,6 +128,7 @@
       <find>get_champion_json</find>
       <find>champ_en_name</find>
       <find>print</find>
+      <find>win_rate_fa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,15 +143,15 @@
         <option value="$PROJECT_DIR$/reco/templates/index.html" />
         <option value="$PROJECT_DIR$/reco/templates/recommend.html" />
         <option value="$PROJECT_DIR$/Rioter_GG/settings.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Rioter_GG/urls.py" />
         <option value="$PROJECT_DIR$/reco/views.py" />
-        <option value="$PROJECT_DIR$/reco/urls.py" />
         <option value="$PROJECT_DIR$/reco/templates/riot.txt" />
+        <option value="$PROJECT_DIR$/reco/urls.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -163,22 +168,6 @@
           <expand>
             <path>
               <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
-              <item name="reco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
-              <item name="reco" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rioter_GG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
               <item name="Rioter_GG" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -205,8 +194,8 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\growth_champions\Rioter_GG" />
-      <recent name="C:\dev\growth_champions\Rioter_GG\reco\templates" />
       <recent name="C:\dev\growth_champions\Rioter_GG\reco" />
+      <recent name="C:\dev\growth_champions\Rioter_GG\reco\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,26 +245,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561437953919</updated>
-      <workItem from="1561437955661" duration="32180000" />
+      <workItem from="1561437955661" duration="35178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32180000" />
+    <option name="totallyTimeSpent" value="35178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="763" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26907074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.7933426" visible="true" weight="0.36011478" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.20665742" side_tool="true" visible="true" weight="0.36011478" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.79395974" visible="true" weight="0.35602838" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.20604026" side_tool="true" visible="true" weight="0.35602838" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -381,9 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rioter_GG/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -394,18 +380,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reco/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CHALLENGER_time_vector.pickle">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reco/templates/riot.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reco/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -417,10 +400,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reco/templates/riot.txt">
+    <entry file="file://$PROJECT_DIR$/win_rate_fake.pickle">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reco/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
